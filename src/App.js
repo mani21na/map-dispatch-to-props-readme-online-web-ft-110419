@@ -22,11 +22,12 @@ class App extends Component {
   }
 };
 
-const mapStateToProps = (state) => {
+/*const mapStateToProps = (state) => {
   return {
     items: state.items
   };
 };
+*/
 
 // Code change: this new function takes in dispatch as an argument
 // It then returns an object that contains a function as a value!
